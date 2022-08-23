@@ -1,6 +1,4 @@
 language: java
-java:
-  - 11.0
 install: skip
 
 os: linux
