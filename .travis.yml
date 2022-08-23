@@ -1,0 +1,12 @@
+language: java
+java:
+  - 11.0
+install: skip
+
+os: linux
+dist: trusty
+jdk: oraclejdk8
+before_script:
+  echo $pwd;
+script:
+  - ./gradlew build --scan -s
