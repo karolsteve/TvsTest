@@ -7,7 +7,7 @@ public class Main {
     }
 
     public static int addThree(int num){
-        return num + 30;
+        return num + 3;
     }
 
     public int addThreeLocal(int num){
